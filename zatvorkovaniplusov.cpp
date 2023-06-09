@@ -31,10 +31,10 @@ void umiestni_zatvorky (char* pole_znakov, int zaciatok, int koniec) {
 			//printf ("%s\n", pole_znakov);
 			fprintf(sub, "%s\n", pole_znakov);
 	
-	
+	/*
 			//zatvorky pre lavu cast
 			umiestni_zatvorky(pole_znakov, zaciatok, pozicia_lavej-1);
-		
+	*/	
 			//zatvorky pre vnutornu cast
 			umiestni_zatvorky(pole_znakov, pozicia_lavej+1, pozicia_pravej-1);
 			
